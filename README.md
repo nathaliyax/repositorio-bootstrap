@@ -1,2 +1,3 @@
 # repositorio-bootstrap
-repositorio experimental.feito a base de bootstrap para melhor entendimento da ferramenta
+Repositorio experimental.
+Feito a base de bootstrap para melhor entendimento da ferramenta
