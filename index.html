@@ -5,27 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nathalia Lima</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+  .skill-icon {
+    width: 100px;
+    height: 100px;
+  }
+</style>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Nathalia Lima</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact me</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Meu portifólio</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Quem sou</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">Me Encontre</a>
+    </li>
+  </ul>
 </nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <h1 id="scrollspyHeading1">Nathalia Lima por aqui!</h1>
+    <div>
+    <img src="./src/assets/images/eu.jpg" alt="Nathalia (eu)" 
+    style="border-radius: 100%; width: 200px;">
+  </div>
+  <p>Sou desenvolvedora e estudante de Desenvolvimento de Sistemas, sempre em busca de construir algo novo.</p>
+  </div>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <p id="scrollspyHeading2">Minhas Skills</p>
+  
+  <div style="display: flex; gap: 10px;"> 
+    <img class="skill-icon" src="./src/assets/icon/java.svg" alt="icone java">
+    <img class="skill-icon" src="./src/assets/icon/git.svg" alt="icone git">
+    <img class="skill-icon" src="./src/assets/icon/html.svg" alt="icone html">
+    <img class="skill-icon" src="./src/assets/icon/css.svg" alt="icone css">
+    <img class="skill-icon" src="./src/assets/icon/mysql.svg" alt="icone mysql">
+  </div>
+</div>
+  <h4 id="scrollspyHeading3">3</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">4</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">5</h4>
+  <p>...</p>
+</div>
+
 
 </body>
 </html>
